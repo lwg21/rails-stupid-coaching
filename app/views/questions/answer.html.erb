@@ -1,0 +1,14 @@
+<div class="container p-5 d-flex justify-content-center">
+  <div>
+  <figure class="mv-2">
+    <blockquote class="blockquote"><p><%= @question %></p></blockquote>
+    <figcaption class="blockquote-footer">You</figcaption>
+  </figure>
+  <figure>
+  <blockquote class="blockquote"><p><%= @answer %></p></blockquote>
+  <figcaption class="blockquote-footer">The coach</figcaption>
+  </figure>
+
+  <%= link_to "Ask a new question", "ask", class: "btn btn-primary" %>
+  </div>
+</div>
